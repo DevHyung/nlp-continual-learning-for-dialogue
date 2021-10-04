@@ -1,6 +1,13 @@
-# ENMODEL
+# Dialogue_CL
 
 ## Installation
+huggingface transformer 라이브러리 코드를 직접 수정하므로 가상환경 사용을 권장
+```bash
+python -m venv .enLM
+. .enLM/bin/activate
+pip install -r requirements.txt
+```
+transformer_file 디렉토리에 있는 파일을 .enLM/lib/python3.7/site-packages/transformers/ 로 이동
 
 ### Requirements
 * torch
